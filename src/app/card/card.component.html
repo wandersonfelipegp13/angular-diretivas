@@ -1,0 +1,19 @@
+<div class="container">
+  <img
+    id="profile-photo"
+    src="https://cdn.discordapp.com/avatars/875091718599491584/8a05d65480d25a8982322759a44763b4.webp"
+    alt="Profile"
+  />
+
+  <p>Wanderson Felipe</p>
+
+  <ul id="tech-list">
+    <app-tag
+      *ngFor="let tech of tecnologias; let i = index"
+      (click)="remove(i)"
+      text="{{ tech }}"
+      estilo="{{ tech.toLocaleLowerCase() }}"
+    ></app-tag>
+    <app-tag text="+" estilo="add" (click)="add()"></app-tag>
+  </ul>
+</div>

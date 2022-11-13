@@ -1,0 +1,21 @@
+button {
+  background-color: transparent;
+  color: aqua;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid aqua;
+  cursor: pointer;
+
+  width: 100%;
+
+  font-family: Ubuntu;
+  font-weight: bold;
+  font-size: 16px;
+
+  transition: 0.5s all;
+}
+
+button:hover {
+  background-color: aqua;
+  color: #000;
+}

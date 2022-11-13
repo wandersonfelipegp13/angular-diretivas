@@ -1,0 +1,32 @@
+* {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#btns {
+  margin-top: 16px;
+}
+
+#btns > div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#black-square > div {
+  display: flex;
+  justify-content: center;
+
+  background-color: rgb(17, 17, 17);
+  width: 100px;
+  height: 100px;
+  margin-top: 16px;
+
+  border-radius: 50%;
+}
+
+#black-square > p {
+  margin-top: 8px;
+}
